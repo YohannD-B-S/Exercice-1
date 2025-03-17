@@ -1,3 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 header{
     background-color: black;
     padding: 40px;
@@ -22,6 +34,61 @@ a{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+}
+
+section:first-of-type{
+    margin-bottom: 40px;
+}
+
+article{
+    display: flex;
+    align-items: center;
+
+}
+div{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+
+}
+img{
+    width: 100%;
+    height: auto;
+
+}
+
+h2{
+    margin: 20px;
+}
+
+p{
+    margin: 20px;
+}
+
+section:nth-of-type(2){
+    display: flex;
+    
+}
+
+div{
+    margin : 45px;
+}
+
+section:nth-of-type(2) div:nth-of-type(2){
+    width:400px;
+    
+    
+}
+
+img{
+    width:100%
+    
+
 }
 
 
